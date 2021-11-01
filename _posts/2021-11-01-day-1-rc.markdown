@@ -14,4 +14,4 @@ I'll be doing RC on a Linux laptop that I haven't used much, so there's a ton of
 
 Project-wise I'm hoping to use three.js to build a sun mapper to visualize how the sun moves over the course of a day/year. I want to use this to help do garden planning :) so I'll also need to figure out how to make a simple model of the houses in my neighborhood. Today I got started with some three.js tutorials and look! I made a cube and a DIRECTIONAL LIGHT that hits the CUBE. I'll figure out how to deploy this tomorrow so I can share more than static images as I go.
 
-![moving cube with light](https://github.com/zmagg/blog/blob/gh-pages/_posts/cube.png)
+![moving cube with light](https://raw.githubusercontent.com/zmagg/blog/gh-pages/_posts/cube.png)

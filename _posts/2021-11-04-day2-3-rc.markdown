@@ -22,7 +22,7 @@ Heh.
 
 Anyway, I'm still working on that port, I've set up my Typescript project and wrangled npm and stubbed my functions and feel good about my code reading. I had a nice time talking to T in my batch about some `yargs` details too. 
 
-The other thing I did was set up a WEBSITE so that you can see my spinning cube in three.js, and soon, the actual sun plotter, check it out here: https://zmagg.com/sun-plotter
+The other thing I did was set up a WEBSITE so that you can see my spinning cube in three.js, and soon, the actual sun plotter, check it out here: [https://zmagg.com/sun-plotter](https://zmagg.com/sun-plotter).
 
 ok that's it for now, more tomorrow, ciao! I have more ideas about what to do with these sun algos once I have them implemented too... ☀️
 

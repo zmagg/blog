@@ -27,14 +27,14 @@ Here are some bloopers, for your enjoyment. They've been hilarious to accidental
 </p>
 
 ### Some thoughts on frontend
-For no particular reason, I've been working on this project primarily in Typescript and not vanilla Javascript. Something I didn't realize until I started actually working in Typescript is that the Typescript itself never actually gets executed. A program runs to transpile Typescript into Javascript and then the *Javascript* gets executed. This is very different than the other approach of "add some types to this dynamic language" that I've used before, namely Hack. Hack actually runs on HHVM, it doesn't first transpile into PHP to execute. The lack of runtime safety is a little disconcerting, especially in combination with this [bug I hit](https://github.com/microsoft/TypeScript/issues/27379) where `tsc` run on a single file doesn't use your .tsconfig.  If I got any of this wrong, and you're reading this, lemme know. 
+For no particular reason, I've been working on this project primarily in Typescript and not vanilla Javascript. Something I didn't realize until I started actually working in Typescript is that the Typescript itself never actually gets executed. A program runs to transpile Typescript into Javascript and then the *Javascript* gets executed. This is very different than the other approach of "add some types to this dynamic language" that I've used before, namely Hack. Hack actually runs on HHVM, it doesn't first transpile into PHP to execute. The lack of runtime safety is a little disconcerting, especially in combination with this [bug I hit](https://github.com/microsoft/TypeScript/issues/27379) where `tsc` run on a single file doesn't use your .tsconfig.  If I got any of this wrong, lemme konw. 
 
 I lost a day trying to understand how to use modules this week. There appear to be just so so many strategies and so many different concepts to understand. I eventually gave up and forked off of this great [starter project](https://github.com/Gaweph/p5-typescript-starter) for using typescript with p5.js and manually added all the JS files I needed to my .html in a row like this:
 ```
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
-    <script src="https://unpkg.com/p5.createloop@latest/dist/p5.createloop.js"></script>
-    <script src="./sketch/calc-azimuth-elev.js"></script>
-    <script src="./sketch/sketch.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    	<script src="https://unpkg.com/p5.createloop@latest/dist/p5.createloop.js"></script>
+    	<script src="./sketch/calc-azimuth-elev.js"></script>
+    	<script src="./sketch/sketch.js"></script>
 ```
 
 Maybe next week I'll figure out how to use modules? I'd love to isolate my sun path calculations away from the sketches, of which I want to make many, but for now I think a separate file will work for me.

@@ -47,7 +47,7 @@ Maybe next week I'll figure out how to use modules? I'd love to isolate my sun p
 
 It's been a treat to get to chat with friends about computers who I don't work with! A few years ago, [Lisa](twitter.com/niftynei) worked on a [moon clock](https://moon.supply/api.html) and she's been great to talk to about _Astronomical Algorithms_, and the sun art I've been working on is inspired by seeing her IRL moon clock.
 
-Being at RC has been lovely to see what other people are working on and how they approach their work. I had a bias/block against Processing after trying to use it in 2009, that I didn't realize was rooted in 2009-era Java and not super relevant for how warm and welcoming it is to use now. Seeing people's creative coding projects in the online editor made me take a closer look at it!
+RC has been a lovely way to see what other people are working on and how they approach their work. I had a bias/block against Processing after trying to use it in 2009, that I didn't realize was rooted in 2009-era Java and not super relevant for how warm and welcoming it is to use now. Seeing people's creative coding projects in the online editor made me take a closer look at it!
 
 If you're one of the people who's been texting / messaging me about these blog posts, I've been really enjoying that so please keep reaching out!
 

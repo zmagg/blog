@@ -11,7 +11,7 @@ My project at RC has been to model the sun's path over the course of the year so
 
 This week, while I ported some functions to calculate a sun's elevation / azimuth (degrees away from North from the perspective of the viewer) to Typescript, the act of working on this port caused my project to spawn some side project ideas. I want to make some astronomically accurate art with these calculations! I was especially inspired by what people in my batch have been doing with p5.js, so I've been using that this week. My idea is to represent the sun's phase in the style of how moon phase posters/calendars look. Here's where I'm at right now:
 
-![sungood][../../../assets/sungood.gif]
+![sungood][../../../assets/11112021/sungood.gif]
 
 
 The elevation and location of the sun is chosen based on the hard coded date/location-- Berkeley CA on November 11 2021. Next I'm going to place multiple of these from different months of the year in a grid and let the user choose a location. Also...maybe shadows? Also...maybe finalizing the color palette instead of randomizing it? If I stick with randomizing though, I'm going to move over to HSB mode. Bonnie in my batch recommendd this [blog post](https://tylerxhobbs.com/essays/2016/working-with-color-in-generative-art) on HSB vs. RGB  which was super instructive.
@@ -19,11 +19,13 @@ The elevation and location of the sun is chosen based on the hard coded date/loc
 Here are some bloopers, for your enjoyment. They've been hilarious to accidentally make, nothing like hitting save and seeing the sun go upside down.  Still working on the art piece, but I'll share as I go next week and show you the final project too.
 
 <p float="left">
-  <img src="../../../assets/11112021/sunoops.gif" width="150" />
-  <img src="../../../assets/11112021/sunoops2.gif" width="150" />
-  <img src="../../../assets/11112021/sunoops3.gif" width="150" />
-  <img src="../../../assets/11112021/sunoops4.gif" width="150" />
-  <img src="../../../assets/11112021/sunoops5.gif" width="150" />
+  <img src="../../../assets/11112021/sunoops.gif" width="200" />
+  <img src="../../../assets/11112021/sunoops2.gif" width="200" />
+</p>
+<p></p>
+<p float="left">
+  <img src="../../../assets/11112021/sunoops3.gif" width="200" />
+  <img src="../../../assets/11112021/sunoops5.gif" width="200" />
 </p>
 
 ### Some thoughts on frontend

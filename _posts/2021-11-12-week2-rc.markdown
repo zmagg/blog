@@ -31,7 +31,7 @@ Here are some bloopers, for your enjoyment. They've been hilarious to accidental
 </p>
 
 ### Some thoughts on frontend
-For no particular reason, I've been working on this project primarily in Typescript and not vanilla Javascript. Something I didn't realize until I started actually working in Typescript is that the Typescript itself never actually gets executed. A program runs to transpile Typescript into Javascript and then the *Javascript* gets executed. This is very different than the other approach of "add some types to this dynamic language" that I've used before, namely Hack. Hack actually runs on HHVM, it doesn't first transpile into PHP to execute. The lack of runtime safety is a little disconcerting, especially in combination with this [bug I hit](https://github.com/microsoft/TypeScript/issues/27379) where `tsc` run on a single file doesn't use your .tsconfig.  If I got any of this wrong, lemme konw. 
+For no particular reason, I've been working on this project primarily in Typescript and not vanilla Javascript. Something I didn't realize until I started actually working in Typescript is that the Typescript itself never actually gets executed. A program runs to transpile Typescript into Javascript and then the *Javascript* gets executed. This is very different than the other approach of "add some types to this dynamic language" that I've used before, namely Hack. Hack actually runs on HHVM, it doesn't first transpile into PHP to execute. The lack of runtime safety is a little disconcerting, especially in combination with this [bug I hit](https://github.com/microsoft/TypeScript/issues/27379) where `tsc` run on a single file doesn't use your .tsconfig. (Hack also doesn't have runtime safety though, but it's not because it transpiles it into PHP).  If I got any of this wrong, lemme know. 
 
 I lost a day trying to understand how to use modules this week. There appear to be just so so many strategies and so many different concepts to understand. I eventually gave up and forked off of this great [starter project](https://github.com/Gaweph/p5-typescript-starter) for using typescript with p5.js and manually added all the JS files I needed to my .html in a row like this:
 ```
@@ -49,6 +49,6 @@ It's been a treat to get to chat with friends about computers who I don't work w
 
 RC has been a lovely way to see what other people are working on and how they approach their work. I had a bias/block against Processing after trying to use it in 2009, that I didn't realize was rooted in 2009-era Java and not super relevant for how warm and welcoming it is to use now. Seeing people's creative coding projects in the online editor made me take a closer look at it!
 
-If you're one of the people who's been texting / messaging me about these blog posts, I've been really enjoying that so please keep reaching out!
+If you're one of the people who's been texting / messaging me about these blog posts, I've been really enjoying that!! It's been great to talk to people while learning how to do things in frontend who know way way more about it than I do. 
 
 

@@ -1,0 +1,12 @@
+I"�<p>First day back at RC!! I was last at RC in Summer 2013, over 8 years ago. I might want to ruminate on that some more later, but not now.</p>
+
+<p>Today I met a bunch of people, did onboarding, met my RC onboarding buddy, and started some organizing work for working through <a href="https://greenteapress.com/wp/semaphores/">The Little Book of Semaphores</a> with a small crew.</p>
+
+<p>In the afternoon, I set up some computing infrastructure stuff, including this blog! Hello world! Pretty delighted at how seamlessly project pages works with Github Pages–even the HTTPS was setup automatically.</p>
+
+<p>I’ll be doing RC on a Linux laptop that I haven’t used much, so there’s a ton of tiny dev environment details to figure out, on top of everything else. Today’s biggest nuisance (delight??) I ran into was setting up libsecret to store my GitHub personal access token in. After my initial setup, all my git commands would just hang forever. I delightedly used <code class="language-plaintext highlighter-rouge">strace</code> and diagnosed that well, ok, I probably didn’t need to use strace to see that it was hanging on reading the credentials. Frustratedly fussed with chmod and reinstalling, until I found this helpful StackOverflow comment’s <a href="https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos#comment2203681_959662">comment</a> and restarted my computer, and all was well. I suspect that since I was already using the Gnome keyring, I needed to kick it somehow after setting up libsecret, which restarting did for me. Would be curious to understand what actually happened though.</p>
+
+<p>Project-wise I’m hoping to use three.js to build a sun mapper to visualize how the sun moves over the course of a day/year. I want to use this to help do garden planning :) so I’ll also need to figure out how to make a simple model of the houses in my neighborhood. Today I got started with some three.js tutorials and look! I made a cube and a DIRECTIONAL LIGHT that hits the CUBE. I’ll figure out how to deploy this tomorrow so I can share more than static images as I go.</p>
+
+<p><img src="https://raw.githubusercontent.com/zmagg/blog/gh-pages/_posts/cube.gif" alt="moving cube with light" /></p>
+:ET

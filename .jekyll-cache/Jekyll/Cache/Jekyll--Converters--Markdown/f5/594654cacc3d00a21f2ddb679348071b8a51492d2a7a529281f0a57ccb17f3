@@ -1,0 +1,25 @@
+I"<p>oh hi friends! When we last spoke it was day 1, and now it is the end of day 3. (RC was off for Election Day, so I too took off to sleep in and make some progress on Fall planting season).</p>
+
+<p>I’ve been working on my sun plotter project and meeting a few people 1-1 over Zoom!</p>
+
+<p>☀️ Sun plotter project:
+I’ve been primarily working on computing azimuth/elevation based on lat/long/altitude/time of a location so that I can pass that into a lighting source in three.js to specify the <em>direction</em> that light is coming from. Computing these two things has a closed form equation specified in <a href="http://www.agopax.it/Libri_astronomia/pdf/Astronomical%20Algorithms.pdf"> <em>Astronomical Algorithms</em></a>, as well as some published pages by <a href="https://gml.noaa.gov/grad/solcalc/">NOAA</a> and other sources. I decided to port a <a href="https://github.com/CIVA-Lab/solar-position-calculator">library I found</a> from C++ to JS directly to get some experience setting up a JS/Typescript project from scratch. My friend Tom pointed out that I could also use emscripten to compile to WebAssembly, which also seems like it could be cool to learn how to use later!</p>
+
+<p>Anyway anyway, <em>did you know</em> that all of these astronomical algorithms are specified in Julian time? I fell down a bit of a code reading rabbit hole trying to understand the Julian date conversions this C++ code was doing. Julian dates are also measured from noon to noon, and I’m not super sure if this library I found has a bug in it that makes it 12 hours off, BUT! if so, once I hook it up to my visualization I’m sure it will be quite easy to tell that it’s night when it’s supposed to be dark, ez.</p>
+
+<p>Relatedly, I have been thinking a bit about how to validate I get these calculations right. If I trust the library I’m porting more than I trust my ability to express math in javascript (yes), one thing I could do is write a small fuzzer program to send the same inputs to my program and that one and compare. I might do that just to double check my port.</p>
+
+<p>I think accuracy is top of mind for me, as in the forward to <em>Astronomical Algorithms</em> I read:</p>
+<blockquote>
+  <p>People who write their own computer programs often wonder why the machine gives inaccurate planet positions, an unreal eclipse track, or a faulty Moon phase. Sometimes they insist, bewildered, ‘and I used double precision, too.’ Even commercial software is sometimes affllicted with gremlins, which comes as quite a shock to anyone caught up in the mystique and presumed infallibility of computers.</p>
+</blockquote>
+
+<p>Heh.</p>
+
+<p>Anyway, I’m still working on that port, I’ve set up my Typescript project and wrangled npm and stubbed my functions and feel good about my code reading. I had a nice time talking to T in my batch about some <code class="language-plaintext highlighter-rouge">yargs</code> details too.</p>
+
+<p>The other thing I did was set up a WEBSITE so that you can see my spinning cube in three.js, and soon, the actual sun plotter, check it out here: <a href="https://zmagg.com/sun-plotter">https://zmagg.com/sun-plotter</a>.</p>
+
+<p>ok that’s it for now, more tomorrow, ciao! I have more ideas about what to do with these sun algos once I have them implemented too… ☀️</p>
+
+:ET

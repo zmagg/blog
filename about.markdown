@@ -1,4 +1,4 @@
 ---
-title: /about/
-redirect_to: https://www.zmagg.com
+title: About
+redirect_to: http://www.zmagg.com
 ---

@@ -26,6 +26,9 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 production_url: "http://zmagg.github.io/blog"
 BASE_PATH: "http://zmagg.com/blog"
 
+header_pages:
+  - about.markdown
+
 # Build settings
 theme: minima
 plugins:
